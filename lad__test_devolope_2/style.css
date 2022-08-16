@@ -1,0 +1,6 @@
+.input-focus {
+    margin-top: 10px;
+}
+.input-focus:focus {
+    outline: solid 2px red;
+}

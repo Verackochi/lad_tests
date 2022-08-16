@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Быки и коровы</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>
+                Welcom to Bulls & Cows
+            </h1>
+        </div>
+        <!--APP-->
+        <div class="app">
+            <!--Информация-->
+            <div class="goal">
+                <p class="hello">згаданное число 
+                    <span class="number"></span>
+                </p>
+                <p>Осталось: 
+                    <span class="turns">10</span>
+                    ходов
+                </p>
+            </div>
+            <!--форма ввода-->
+            <div class="form">
+                <label for="player">Введите число</label>
+                <input type="text" name="" id="player">
+                <input type="button" name="ok" id="guess" value="Click Me" onclick="guess()">
+            </div>
+        </div>
+        <!--вывод Комбинаций-->
+        <div class="table">
+            <div class="turnslisist">
+
+            </div>
+        </div>
+    </header>
+    <script src="main.js"></script>
+</body>
+</html>

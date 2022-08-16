@@ -1,0 +1,19 @@
+.container {
+    width: 1280px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.h1 {
+    display: block;
+    margin: 0 auto;
+}
+
+.app {
+    display: flex;
+    justify-content: center;
+}
+
+.guessed {
+    color: brown;
+}
